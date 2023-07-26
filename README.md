@@ -1,5 +1,5 @@
 # Simple Calculator
-This project is a basic calculator which takes 2 integers as intput from the user, to then output the beforehand selected type of operation (multiplication, division... ect) of the 2 inputted numbers in the console.
+This project is a basic calculator which takes 2 integers as intput from the user, to then output the beforehand selected type of operation (multiplication, division... etc) of the 2 inputted numbers in the console.
 
 # Features
 1. Calculates the result of the desired operation of two integers.
