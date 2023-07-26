@@ -12,7 +12,7 @@ void continuance();
 int main()
 {	
 	
-	int nb1, nb2, operation, cont=1;
+    int nb1, nb2, operation, cont=1;
 
     while(1)
     {
@@ -31,7 +31,7 @@ int main()
         {
         case 1:
             sum(nb1, nb2);
-			break;
+	    break;
 			
         case 2:
             substraction(nb1, nb2);
@@ -42,7 +42,7 @@ int main()
             break;
 
         case 4:
-			division(nb1, nb2);
+	    division(nb1, nb2);
             break;
 
         case 5:
@@ -54,7 +54,7 @@ int main()
 
         }
 		
-		continuance(cont);	
+	continuance(cont);	
     }
 	
 	return 0;
@@ -101,7 +101,7 @@ void continuance(int input)
             exit(0);
         }
 		
-		if(input==1)
+	if(input==1)
         {
             break;
         }
@@ -109,7 +109,7 @@ void continuance(int input)
         else if(input!=1 && input!=0)
         {
             system("cls");
-			printf("Invalid Input\n");
+	    printf("Invalid Input\n");
         }
 	}
 }
